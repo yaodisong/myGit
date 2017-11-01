@@ -1,0 +1,60 @@
+.login {
+  width: 100%;
+  height: 100%;
+  background-repeat: round;
+  background-image: url("../src/img/bgimg1.png");
+  position: relative;
+    .logo {
+      position: absolute;
+      top: -530px;
+      left: 0px;
+      right: 0px;
+      bottom: 0px;
+      margin: auto;
+    }
+    .login_content {
+      background-color: #ffffff;
+      width: 331px;
+      height: 263px;
+      margin: auto;
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      .el-form-item__content {
+        line-height: 23px;
+      }
+      .el-form-item:nth-last-child(1) {
+        margin-top: 60px;
+        .el-checkbox__label {
+          padding-left: 5px;
+        }
+        .el-checkbox__input.is-checked + .el-checkbox__label {
+          color: inherit;
+        }
+      }
+      .el-form-item {
+        margin-top: 20px;
+        .el-input__inner {
+          height: 30px;
+        }
+        .el-input {
+          width: 230px;
+          height: 30px;
+        }
+        .el-button {
+          margin-left: 54px;
+          width: 77px;
+          height: 34px;
+          background-color: #27a27b;
+          font-color: #ffffff;
+          line-height: 0;
+          color: #ffffff;
+        }
+        .el-button:hover {
+          color: #ffffff;
+        }
+      }
+    }
+}
