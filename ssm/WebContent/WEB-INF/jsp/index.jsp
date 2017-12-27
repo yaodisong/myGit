@@ -10,7 +10,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>登录</title>
 </head>
-<script src="jquery/jquery.js">//引入jquery框架
+<script src="../../resources/jquery/2.0.0/jquery.min.js">//引入jquery框架
 
 </script>
 <body>
